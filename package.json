@@ -1,0 +1,25 @@
+{
+  "name": "ninomae-inanis-proxy",
+  "version": "1.0.0",
+  "description": "Ninomae-Ina'nis proxy, using UV v1.0.4. Comes bundled with the frontend, and settings.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "files": ["static", "src", "ssl", ".gitignore", "app.json"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireStreaker2/Ninomae-Inanis-Proxy"
+  },
+  "keywords": ["unoffical", "ultraviolet", "unblock", "bypass-filter", "FireStreaker2"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.2.2",
+    "serve-static": "^1.15.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
+  }
+}

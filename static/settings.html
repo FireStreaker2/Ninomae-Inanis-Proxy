@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <title>Ninomae Ina'nis Proxy</title>
+        <meta name="description" content="Ninomae Ina'Nis Proxy"/>
+        <meta name="keywords" content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked"/>
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e"/>
+        <meta name="googlebot" content="index, follow, snippet" />
+        <link rel="stylesheet" href="./css/settings.css" />
+        <link rel="icon" type="image/x-icon" href="./images/tako.png" />
+    </head>
+
+    <body>
+        <div id="particles-js">
+            <h1>Settings</h1>
+
+            <div id="checkbox-container">
+                <div>
+                    <input class="inp-cbx" id="AB" type="checkbox"/>
+                    <label class="cbx" for="AB">
+                        <span>
+                            <svg width="12px" height="10px">
+                                <use xlink:href="#check"></use>
+                            </svg>
+                        </span>
+                        <span>A:B Cloaking</span>
+                    </label>
+                </div>
+                </br>
+                <div>
+                    <input class="inp-cbx" id="load-site" type="checkbox"/>
+                    <label class="cbx" for="load-site">
+                        <span>
+                            <svg width="12px" height="10px">
+                                <use xlink:href="#check"></use>
+                            </svg>
+                        </span>
+                        <span>Load in Iframe</span>
+                    </label>
+                </div>
+                </br>
+                <div>
+                    <input class="inp-cbx" id="pw-protect" type="checkbox" onclick="ask()" />
+                    <label class="cbx" for="pw-protect">
+                        <span>
+                            <svg width="12px" height="10epx">
+                                <use xlink:href="#check"></use>
+                            </svg>
+                        </span>
+                        <span>Password Protect Link?</span>
+                    </label>
+                </div>
+                </br>
+            </div>
+
+            <svg class="inline-svg">
+                <symbol id="check" viewbox="0 0 12 10">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                </symbol>
+              </svg>
+        </div>
+
+
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="./js/persist.js"></script>
+        <script src="./js/settings.js"></script>
+        <script src="./js/protect.js"></script>
+        
+    </body>
+
+</html>
