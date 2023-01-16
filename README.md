@@ -16,16 +16,12 @@
 
 ## Setup via Terminal
 ```
-$ git clone https://github.com/FireStreaker2/Ninomae-Inanis-Proxy
+$ git clone https://github.com/FireStreaker2/Ninomae-Inanis-Proxy.git
 $ cd Ninomae-Inanis-Proxy
 ```
 > Skip the first two steps if you deployed via one of the buttons above
 ```
 $ npm i
-$ cd Ultraviolet-Static
-$ npm i
-$ cd ..
-$ npm i ./Ultraviolet-Static
 $ npm start
 ```
 
@@ -55,7 +51,6 @@ A: you can do whatever you want as long as it goes along with <a href="https://g
 If you would like to contribute, you can <a href='https://github.com/FireStreaker2/Ninomae-Inanis-Proxy/fork'>fork the repo</a> and <a href='https://github.com/FireStreaker2/Ninomae-Inanis-Proxy/compare'>make a PR</a>, or contact me via email @ ``suggestions@firestreaker2.gq``
 
 ## TODO
-* Add a way to go from ``index.html`` to ``settings.html`` and vice versa, probably via a button somewhere
 * Finish functionality for items in ``settings.html``
 * Polish up some code and remove unnecesary files
 
@@ -65,7 +60,7 @@ If you would like to contribute, you can <a href='https://github.com/FireStreake
 </br>
 [TompHTTP](https://github.com/tomphttp) - Bare Node Server
 </br>
-[Amethyst Network](https://github.com/amethystnetwork-dev) - Some code
+[Amethyst Network](https://github.com/amethystnetwork-dev) - A lot of code that i was too lazy to write myself
 </br>
 [Vincent Garreau](https://github.com/VincentGarreau/particles.js) - Particles.js
 </br>

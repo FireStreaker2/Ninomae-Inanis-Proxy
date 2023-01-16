@@ -1,0 +1,61 @@
+* {
+	font-family: Roboto;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	animation: fadeInAnimation ease-in-out 0.3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	height: 100%;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url("../images/ina.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+p {
+	position: absolute;
+	left: 45%;
+	top: 50%;
+}
+
+h1 {
+	position: absolute;
+	top: 20%;
+	color: white;
+	left: 45.5%;
+}
+
+#credits {
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	left: 44%;
+	top: 65%;
+}

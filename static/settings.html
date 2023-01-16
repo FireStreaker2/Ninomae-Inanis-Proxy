@@ -42,7 +42,7 @@
                 </div>
                 </br>
                 <div>
-                    <input class="inp-cbx" id="pw-protect" type="checkbox" onclick="ask()" />
+                    <input class="inp-cbx" id="pw-protect" type="checkbox" />
                     <label class="cbx" for="pw-protect">
                         <span>
                             <svg width="12px" height="10epx">
@@ -60,7 +60,15 @@
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
                 </symbol>
               </svg>
+
+              <button onclick="store()" class="button">Save</button>
         </div>
+
+        <footer>
+            <a href="/">Home</a> |
+            <a href="settings.html">Settings</a> |
+            <a href="credits.html">Credits</a>
+        </footer>
 
 
         <script src="particles.js"></script>
@@ -68,7 +76,6 @@
         <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
         <script src="./js/persist.js"></script>
         <script src="./js/settings.js"></script>
-        <script src="./js/protect.js"></script>
         
     </body>
 

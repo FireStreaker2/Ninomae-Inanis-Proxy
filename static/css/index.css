@@ -1,140 +1,152 @@
 * {
-  font-family: Roboto;
-  margin: 0px;
-  padding: 0px;
-  
-  overflow: hidden;
+	font-family: Roboto;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  animation: fadeInAnimation ease-in-out 0.3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	animation: fadeInAnimation ease-in-out 0.3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	height: 100%;
 }
 
 .fa-magnifying-glass {
-  color: white;
+	color: white;
 }
 
 .flex-center {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .header-center {
-  align-items: center;
-  flex-direction: column;
-  margin-top: 10%;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10%;
 }
 
 .left-margin {
-  margin: 0px 16px;
+	margin: 0px 16px;
 }
 
 #error {
-  color: #ff6666 !important;
-  white-space: pre-wrap;
+	color: #ff6666 !important;
+	white-space: pre-wrap;
 }
 
 #error-code {
-  font-size: 12px;
-  color: #fff;
-  font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Courier New", Courier, monospace;
 }
 
 #register-sw {
-  color: white;
-  background: #555555;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-radius: 6px;
-  padding: 16px 20px;
-  line-height: 16px;
-  display: none;
+	color: white;
+	background: #555555;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	padding: 16px 20px;
+	line-height: 16px;
+	display: none;
 }
 
 #register-sw:active {
-  background: #333333;
+	background: #333333;
 }
 
 #register-sw.show {
-  display: block;
+	display: block;
 }
 
 .logo {
-  width: 150px;
-  position: absolute;
-  top: 15%;
+	width: 150px;
+	position: absolute;
+	top: 15%;
 }
 
 .logo-wrapper .text {
-  font-size: 75px;
-  font-family: "Roboto";
-  color: #fff;
+	font-size: 75px;
+	font-family: "Roboto";
+	color: #fff;
 }
 
 .logo-wrapper h1 {
-  color: white;
+	color: white;
 }
 
 .desc p {
-  width: 560px;
-  color: rgba(253, 253, 253, 0.514);
+	width: 560px;
+	color: rgba(253, 253, 253, 0.514);
 }
+
 form {
-  position: absolute;
-  left: 37%;
-  top: 55%;
+	position: absolute;
+	left: 37%;
+	top: 55%;
 }
 
 form input {
-  background: none;
-  font-family: inherit;
-  padding: 0px 17px;
-  height: 48px;
-  border: 1px solid rgb(255, 255, 255, 0.2);
-  color: var(--text-color);
-  border-radius: 3px;
-  outline: none;
-  width: 350px;
-  margin-top: 5px;
-  border-radius: 50px;
-  color: #fff;
+	background: none;
+	font-family: inherit;
+	padding: 0px 17px;
+	height: 48px;
+	border: 1px solid rgb(255, 255, 255, 0.2);
+	color: var(--text-color);
+	border-radius: 3px;
+	outline: none;
+	width: 350px;
+	margin-top: 5px;
+	border-radius: 50px;
+	color: #fff;
 }
 
 form input:focus {
-  border: 1px solid rgba(253, 253, 253, 0.514);
-  border-radius: 6px;
-  animation: fadeInAnimation ease-in-out 0.3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+	border: 1px solid rgba(253, 253, 253, 0.514);
+	border-radius: 6px;
+	animation: fadeInAnimation ease-in-out 0.3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-image:
-      linear-gradient(rgba(0, 0, 0, 0.7),
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.7)),
       url("../images/ina.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
+	background-position: 50% 50%;
+	background-size: cover;
 }
 
 p {
-  position: absolute;
-  left: 45%;
-  top: 50%;
+	position: absolute;
+	left: 45%;
+	top: 50%;
 }
 
 h1 {
-  position: absolute;
-  top: 40%;
+	position: absolute;
+	top: 40%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	left: 44%;
+	top: 65%;
 }
