@@ -15,6 +15,12 @@
 </div>
 
 ## Setup via Terminal
+
+Prerequisites:
+* <a href="https://www.npmjs.com/">NPM</a> v8.0.0 or higher
+* <a href="https://nodejs.org/">Node.js</a> v18.0.0 or higher
+* <a href="https://git-scm.com/">Git</a> 
+
 ```
 $ git clone https://github.com/FireStreaker2/Ninomae-Inanis-Proxy.git
 $ cd Ninomae-Inanis-Proxy
@@ -52,6 +58,7 @@ If you would like to contribute, you can <a href='https://github.com/FireStreake
 
 ## TODO
 * Finish functionality for items in ``settings.html``
+* Edit ``404.html`` to make it go along with the theme
 * Polish up some code and remove unnecesary files
 
 ## Credits
