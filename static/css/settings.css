@@ -4,6 +4,7 @@
 	padding: 0px;
 	color: white;
 	overflow: hidden;
+	box-sizing: border-box;
 }
 
 body {
@@ -15,6 +16,15 @@ body {
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	height: 100%;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: #223254;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #particles-js {
@@ -46,10 +56,6 @@ h1 {
 	left: 45%;
 	top: 40%;
 	color: white;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 .cbx {
@@ -125,18 +131,6 @@ h1 {
 
 .inp-cbx:checked + .cbx span:first-child svg {
 	stroke-dashoffset: 0;
-}
-
-body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 16px;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-	color: #223254;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .inline-svg {

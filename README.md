@@ -56,10 +56,9 @@ A: you can do whatever you want as long as it goes along with <a href="https://g
 ## Contributing
 If you would like to contribute, you can <a href='https://github.com/FireStreaker2/Ninomae-Inanis-Proxy/fork'>fork the repo</a> and <a href='https://github.com/FireStreaker2/Ninomae-Inanis-Proxy/compare'>make a PR</a>, or contact me via email @ ``suggestions@firestreaker2.gq``
 
-## TODO
-* Finish functionality for items in ``settings.html``
-* Edit ``404.html`` to make it go along with the theme
-* Polish up some code and remove unnecesary files
+## TODO/v1.1.0 wishlist
+* Add more things in ``settings.html``
+* add more pages for other things
 
 ## Credits
 
