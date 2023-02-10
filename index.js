@@ -6,12 +6,12 @@ import { readFileSync, existsSync } from "node:fs";
 import serveStatic from "serve-static";
 
 const bare = createBareServer("/bare/");
-const serve = serveStatic(fileURLToPath(new URL("../static/", import.meta.url)), { fallthrough: false });
+const serve = serveStatic(fileURLToPath(new URL("./static/", import.meta.url)), { fallthrough: false });
 var server, PORT;
-if(existsSync("../ssl/key.pem") && existsSync("../ssl/cert.pem")) {
+if(existsSync("../ssl/key.pem") && existsSync("./ssl/cert.pem")) {
   server = createHttpsServer({
-    key: readFileSync("../ssl/key.pem"),
-    cert: readFileSync("../ssl/cert.pem")
+    key: readFileSync("./ssl/key.pem"),
+    cert: readFileSync("./ssl/cert.pem")
   });
   PORT = 443;
 } else { server = createHttpServer(); PORT = (process.env.PORT || 8080);}

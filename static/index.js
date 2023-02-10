@@ -1,8 +1,6 @@
 "use strict";
-const form = document.getElementById("uv-form");
-const input = document.getElementById("uv-address");
-const error = document.getElementById("error");
-const errorCode = document.getElementById("error-code");
+const form = document.getElementById("input");
+const input = document.getElementById("url");
 var AB = localStorage.getItem("first");
 
 function openInNewTab(url) {
@@ -44,8 +42,7 @@ form.addEventListener("submit", async (event) => {
   try {
     await registerSW();
   } catch (err) {
-    error.textContent = "Failed to register service worker.";
-    errorCode.textContent = err.toString();
+	alert("An error occured. Check your console for more info.");
     throw err;
   }
 
