@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-	<meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Ninomae Ina'nis Proxy">
@@ -22,53 +22,39 @@
     <link rel="icon" type="image/x-icon" href="./images/tako.png" />
   </head>
 
-    <body>
-        <div id="particles-js">
-            <h1>Settings</h1>
+  <body>
+    <div id="particles-js"></div>
 
-            <div id="checkbox-container">
-                <div>
-                    <input class="inp-cbx" id="AB" type="checkbox"/>
-                    <label class="cbx" for="AB">
-                        <span>
-                            <svg width="12px" height="10px">
-                                <use xlink:href="#check"></use>
-                            </svg>
-                        </span>
-                        <span>A:B Cloaking</span>
-                    </label>
-                </div>
-                </br>
-                <div>
-                    <!-- commented out for now, unsure of whether to implement or not
-                    <input class="inp-cbx" id="themes" type="checkbox" />
-                    <label class="cbx" for="themes">
-                        <span>
-                            <svg width="12px" height="10epx">
-                                <use xlink:href="#check"></use>
-                            </svg>
-                        </span>
-                        <span>Background</span>
-                    </label>
-                -->
-                </div>
-                </br>
+    <div id="container">
+        <h1>Settings</h1>
+        <div id="checkbox-container">
+            <div>
+                <input class="inp-cbx" id="AB" type="checkbox"/>
+                <label class="cbx" for="AB">
+                    <span>
+                        <svg width="12px" height="10px">
+                            <use xlink:href="#check"></use>
+                        </svg>
+                    </span>
+                    <span>A:B Cloaking</span>
+                </label>
             </div>
-
-            <svg class="inline-svg">
-                <symbol id="check" viewbox="0 0 12 10">
-                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-                </symbol>
-              </svg>
-
-              <button onclick="store()" class="button">Save</button>
         </div>
+
+        <svg class="inline-svg">
+            <symbol id="check" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+            </symbol>
+        </svg>
+
+        <button id="button">Save</button>
 
         <footer>
             <a href="/">Home</a> |
             <a href="settings.html">Settings</a> |
             <a href="credits.html">Credits</a>
         </footer>
+    </div>
 
         <script src="particles.js"></script>
         <script src="app.js"></script>

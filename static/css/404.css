@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
-	font-family: Roboto;
+	font-family: "Roboto";
 	margin: 0px;
 	padding: 0px;
 	color: white;

@@ -1,22 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
-	font-family: Roboto;
-	margin: 0px;
-	padding: 0px;
+	font-family: "Roboto";
+	margin: 0;
+	padding: 0;
 	color: white;
 	overflow: hidden;
 }
 
 body {
-	margin: 0;
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 	height: 100%;
-}
-
-.flex-center {
-	display: flex;
-	justify-content: center;
 }
 
 .top {
@@ -25,31 +19,17 @@ body {
 	margin-top: 10%;
 }
 
-.left-margin {
-	margin: 0px 16px;
-}
-
 .logo {
 	width: 150px;
-	position: absolute;
-	top: 15%;
 }
 
 .logo-wrapper .top {
 	font-size: 75px;
-	font-family: "Roboto";
-	color: #fff;
 }
 
 .desc {
 	width: 560px;
-	color: rgba(253, 253, 253, 0.514);
-}
-
-form {
-	position: absolute;
-	left: 35%;
-	top: 55%;
+	margin-top: 1rem;
 }
 
 form input {
@@ -68,7 +48,6 @@ form input {
 }
 
 #particles-js {
-	position: absolute;
 	width: 100%;
 	height: 100vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
@@ -76,17 +55,7 @@ form input {
       url("../images/ina.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
-}
-
-p {
-	position: absolute;
-	left: 45%;
-	top: 50%;
-}
-
-h1 {
-	position: absolute;
-	top: 40%;
+	pointer-events: none;
 }
 
 a {
@@ -95,8 +64,14 @@ a {
 	text-align: center;
 }
 
-footer {
+#container {
 	position: absolute;
-	left: 44%;
-	top: 65%;
+	top: -10%;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }

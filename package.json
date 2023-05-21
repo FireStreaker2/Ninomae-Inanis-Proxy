@@ -1,12 +1,11 @@
 {
   "name": "ninomae-inanis-proxy",
-  "version": "1.0.0",
-  "description": "Ninomae-Ina'nis proxy, using UV v1.0.4. Comes bundled with the frontend, and settings.",
+  "version": "1.0.1",
+  "description": "Ninomae-Ina'nis proxy, using UV v1.0.10. Comes bundled with the frontend, and settings.",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "files": ["static", "src", "ssl", ".gitignore", "app.json"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FireStreaker2/Ninomae-Inanis-Proxy"

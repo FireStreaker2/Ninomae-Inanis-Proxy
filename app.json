@@ -1,7 +1,0 @@
-{
-    "name": "ninomae-inanis-proxy",
-    "description": "Ninomae-Ina'nis proxy, using UV v1.0.4. Comes bundled with the frontend, and settings.",
-    "repository": "https://github.com/FireStreaker2/Ninomae-Inanis-Proxy",
-    "logo": "https://firestreaker2.gq/tako.png",
-    "keywords": ["unoffical", "ultraviolet", "unblock", "bypass-filter", "FireStreaker2"]
-}

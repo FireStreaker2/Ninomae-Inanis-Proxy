@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
-	font-family: Roboto;
-	margin: 0px;
-	padding: 0px;
+	font-family: "Roboto";
+	margin: 0;
 	color: white;
 	overflow: hidden;
-	box-sizing: border-box;
 }
 
 body {
@@ -12,11 +12,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	animation: fadeInAnimation ease-in-out 0.3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
 	height: 100%;
-	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -28,34 +24,18 @@ body {
 }
 
 #particles-js {
-	position: absolute;
 	width: 100%;
 	height: 100vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
-        url("../images/ina.jpg");
+          rgba(0, 0, 0, 0.7)),
+      url("../images/ina.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
-}
-
-p {
-	position: absolute;
-	left: 45%;
-	top: 50%;
-}
-
-h1 {
-	position: absolute;
-	top: 20%;
-	color: white;
-	left: 45.5%;
+	pointer-events: none;
 }
 
 #checkbox-container {
-	position: absolute;
-	left: 45%;
-	top: 40%;
-	color: white;
+	margin: 1rem;
 }
 
 .cbx {
@@ -155,43 +135,12 @@ h1 {
 	}
 }
 
-@-moz-keyframes wave {
-	50% {
-		transform: scale(0.9);
-	}
-}
-
-@-webkit-keyframes wave {
-	50% {
-		transform: scale(0.9);
-	}
-}
-
-@-o-keyframes wave {
-	50% {
-		transform: scale(0.9);
-	}
-}
-
-@keyframes wave {
-	50% {
-		transform: scale(0.9);
-	}
-}
-
 a {
-	color: white;
 	text-decoration: none;
 	text-align: center;
 }
 
-footer {
-	position: absolute;
-	left: 44%;
-	top: 65%;
-}
-
-.button {
+button {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
   border: 0;
@@ -201,29 +150,24 @@ footer {
   color: #FFFFFF;
   display: flex;
   font-family: Phantomsans, sans-serif;
-  font-size: 20px;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
-  min-width: 140px;
   padding: 3px;
   text-decoration: none;
-  user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
-  position: absolute;
-  left: 43%;
-  top: 57%;
+  margin: 1rem;
 }
 
-.button:active,
-.button:hover {
+button:active,
+button:hover {
   outline: 0;
 }
 
-.button span {
+button span {
   background-color: rgb(5, 6, 45);
   padding: 16px 24px;
   border-radius: 6px;
@@ -232,13 +176,23 @@ footer {
   transition: 300ms;
 }
 
-.button:hover span {
+button:hover span {
   background: none;
 }
 
 @media (min-width: 768px) {
-  .button {
+  button {
     font-size: 24px;
     min-width: 196px;
   }
+}
+
+#container {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

@@ -1,4 +1,4 @@
-import createBareServer from '@tomphttp/bare-server-node';
+import createBareServer from "@tomphttp/bare-server-node";
 import { fileURLToPath } from "url";
 import { createServer as createHttpsServer } from "node:https";
 import { createServer as createHttpServer } from "node:http";
@@ -22,7 +22,7 @@ server.on("request", (req, res) => {
       res.writeHead(err?.statusCode || 500, null, {
         "Content-Type": "text/plain",
       });
-      res.end('Error')
+      res.end("Error")
     })
 });
 
@@ -30,15 +30,15 @@ server.on("upgrade", (req, socket, head) => {
   if(bare.shouldRoute(req, socket, head)) bare.routeUpgrade(req, socket, head); else socket.end();
 });
 
-server.on('listening', () => {
+server.on("listening", () => {
   const addr = server.address();
 
   console.log(`Server running on port ${addr.port}`)
-  console.log('');
-  console.log('You can now view it in your browser.')
+  console.log("");
+  console.log("You can now view it in your browser.")
   /* Code for listing IPS from website-aio */
-  console.log(`Local: http://${addr.family === 'IPv6' ? `[${addr.address}]` : addr.address}:${addr.port}`);
-  try { console.log(`On Your Network: http://${address.ip()}:${addr.port}`); } catch (err) {/* Can't find LAN interface */};
+  console.log(`Local: http://${addr.family === "IPv6" ? `[${addr.address}]` : addr.address}:${addr.port}`);
+  try { console.log(`On Your Network: http://${address.ip()}:${addr.port}`); } catch (err) {/* Can"t find LAN interface */};
   if(process.env.REPL_SLUG && process.env.REPL_OWNER) console.log(`Replit: https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`);
 });
 
